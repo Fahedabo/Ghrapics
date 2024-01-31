@@ -360,6 +360,10 @@ int main(int argc,char *argv[])
 //		scn->Motion();
 //		display.SwapBuffers();
         display.PollEvents();
+        delete Gauss;
+        delete output;
+        delete output2;
+        delete output3;
 
     }
     delete scn;
